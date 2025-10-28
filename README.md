@@ -4,12 +4,10 @@ Statistical Hypothesis Testing and Exploratory Data Analysis using Python
 his project explores customer purchase behavior through a real-world dataset to identify whether there is a statistically significant difference between male and female customers’ average purchase amounts.
 Using Python, we conduct end-to-end data analysis — from data cleaning and visualization to hypothesis testing using two-sample t-tests and ANOVA (f_oneway).
 The analysis provides data-driven insights into customer segmentation, purchase patterns, and behavioral trends, which can help businesses make informed marketing and pricing decisions.
-  ## Dataset
+   ## Dataset
 - Source: The dataset used in this analysis is available on Kaggle.
 - Columns: The dataset includes various columns such as Customer ID, Age, Gender, Item Purchased, Category, Purchase Amount (USD), and more.
-  
-  ## Objective
-
+   ## Objective
 The main objective of this project is to test a real hypothesis derived from customer transaction data:
 
 H₀ (Null Hypothesis): The average purchase amount of males = average purchase amount of females.
@@ -84,13 +82,13 @@ This ensures a data-driven, evidence-based approach to understanding consumer be
 
 The following visualizations were created:
 
-Distribution plots to visualize purchase amounts by gender.
+- Distribution plots to visualize purchase amounts by gender.
 
-Boxplots to show variance, spread, and outliers in purchasing patterns.
+- Boxplots to show variance, spread, and outliers in purchasing patterns.
 
-Histograms for frequency distribution.
+- Histograms for frequency distribution.
 
-Mean comparison plots to illustrate group differences.
+- Mean comparison plots to illustrate group differences.
 
 These visuals help non-technical stakeholders easily interpret patterns and results.
 
