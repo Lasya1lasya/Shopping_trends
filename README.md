@@ -7,7 +7,7 @@ The analysis provides data-driven insights into customer segmentation, purchase 
   ## Dataset
 - Source: The dataset used in this analysis is available on Kaggle.
 - Columns: The dataset includes various columns such as Customer ID, Age, Gender, Item Purchased, Category, Purchase Amount (USD), and more.
-- 
+  
   ## Objective
 
 The main objective of this project is to test a real hypothesis derived from customer transaction data:
@@ -18,34 +18,34 @@ H₁ (Alternative Hypothesis): The average purchase amount of males ≠ average 
 By applying inferential statistics, this project helps understand whether gender has a meaningful impact on purchase behavior.
 
 ##  Project Workflow
-1️⃣ Data Understanding
+1️) Data Understanding
 
 The dataset includes customer purchase-related attributes such as gender, purchase amount, product category, and more.
 The first step involves exploring column data types, checking for null values, and understanding the dataset’s distribution.
 
-2️⃣ Data Cleaning
+2️) Data Cleaning
 
-Removed or filled missing values
+- Removed or filled missing values
 
-Standardized categorical data
+- Standardized categorical data
 
-Handled duplicates and inconsistent values
+- Handled duplicates and inconsistent values
 
-Converted datatypes for analysis compatibility
+- Converted datatypes for analysis compatibility
 
-3️⃣ Exploratory Data Analysis (EDA)
+3️) Exploratory Data Analysis (EDA)
 
 EDA was performed to understand relationships and patterns:
 
-Visualized purchase distributions by gender
+- Visualized purchase distributions by gender
 
-Identified average and total spending behavior
+- Identified average and total spending behavior
 
-Detected outliers and spread using boxplots
+- Detected outliers and spread using boxplots
 
-Analyzed variance within gender-based purchase groups
+- Analyzed variance within gender-based purchase groups
 
-4️⃣ Hypothesis Testing
+4️) Hypothesis Testing
 
 We used two-sample t-test to compare means between male and female purchase amounts.
 To verify consistency across multiple groups, we also performed ANOVA (Analysis of Variance).
@@ -54,7 +54,7 @@ Key functions used:
 
 from scipy.stats import ttest_ind, f_oneway
 
-5️⃣ Visualization
+5️) Visualization
 
 Data visualizations were created using Matplotlib and Seaborn to highlight differences between groups and visualize distribution patterns.
 
@@ -95,12 +95,12 @@ Mean comparison plots to illustrate group differences.
 These visuals help non-technical stakeholders easily interpret patterns and results.
 
 ## Libraries & Tools
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy.stats import ttest_ind, f_oneway
-import scipy.stats as stats
+- import pandas as pd
+- import numpy as np
+- import matplotlib.pyplot as plt
+- import seaborn as sns
+- from scipy.stats import ttest_ind, f_oneway
+- import scipy.stats as stats
 
 ## Results Summary
 
